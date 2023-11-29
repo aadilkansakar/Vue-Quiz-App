@@ -1,9 +1,13 @@
-<script setup></script>
+<script setup>
+    import Question from "../components/Question.vue"
+    import QuizHeader from "../components/QuizHeader.vue"
+</script>
 
 <template>
     <div>
-        <h2>Quiz</h2>
+        <QuizHeader />
+        <div>
+            <Question />
+        </div>
     </div>
 </template>
-
-<style scoped></style>
